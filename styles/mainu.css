@@ -1,0 +1,81 @@
+.border {
+   border: 2px gray solid;
+   margin: 2px;
+}
+
+.flex {
+   display: flex;
+}
+
+.justify {
+   justify-content: center;
+}
+
+.item {
+   align-items: center;
+}
+.bg {
+   background-color: black;
+   color: white;
+}
+
+.bgg {
+   background-color: #121212;
+}
+
+.in {
+   filter: invert(1);
+}
+
+.rounded {
+   border-radius: 7px;
+}
+
+.m1 {
+   margin: 5px;
+}
+
+.p1 {
+   padding: 10px;
+}
+
+/* For webkit browsers (Chrome, Safari) */
+::-webkit-scrollbar {
+   width: 12px;
+}
+
+::-webkit-scrollbar-track {
+   background: #333;
+}
+
+::-webkit-scrollbar-thumb {
+   background-color: #666;
+   border-radius: 6px;
+}
+
+.contain {
+   flex-wrap: wrap;
+}
+
+/* For webkit browsers (Chrome, Safari) */
+::-webkit-scrollbar {
+   width: 12px;
+}
+
+::-webkit-scrollbar-track {
+   background: #333;
+}
+
+::-webkit-scrollbar-thumb {
+   background-color: #666;
+   border-radius: 6px;
+}
+
+/* For Firefox */
+/* Works in Firefox 64+ */
+/* For older versions of Firefox, you might need to use -moz prefix */
+/* Uncomment the following lines if needed */
+/*
+scrollbar-color: #666 #333;
+scrollbar-width: thin;
+*/
